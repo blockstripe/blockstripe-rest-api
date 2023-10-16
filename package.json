@@ -1,0 +1,24 @@
+{
+  "name": "blockstripe-backend-app",
+  "version": "0.0.1",
+  "description": "BlockStripe backend app",
+  "main": "./src/app-entrypoint.js",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "near-api-js": "^2.1.4",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^6.9.5",
+    "nodemon": "^3.0.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "scripts": {
+    "start": "node ./src/app-entrypoint.js",
+    "dev": "nodemon ./src/app-entrypoint.js"
+  }
+}

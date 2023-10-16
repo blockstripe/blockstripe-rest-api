@@ -1,0 +1,7 @@
+*-lock.json
+**/*.DS_store
+.env-local
+node_modules
+target
+security
+log-*
